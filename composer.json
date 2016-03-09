@@ -1,0 +1,25 @@
+{
+    "name": "afonzeca/universalsimplegrid",
+    "description": "The aim of the package Universal Simple Grid (Usg) is giving to Laravel 5 developers an easy way for creating, managing and representing DB data tables inside a 'Data Grid' by using simple classes and methods with a 'fluent' approach inside code",
+    "license": "MIT",
+    "type": "library",
+    "homepage": "https://github.com/afonzeca/universalsimplegrid",
+    "authors": [{
+        "name": "Angelo Fonzeca",
+        "email": "angelo.fonzeca@gmail.com"
+    }],
+    "autoload": {
+        "psr-4": {
+            "AFonzeca\\UniversalSimpleGrid\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5.9",
+        "laravel/framework": ">=5.1"
+    },
+    "suggest": {
+        "nayjest/grids": "Required for working with Ny Grid Driver",
+        "laravelcollective/html": "Use LaravelCollective >=~5.1"
+    }
+}
