@@ -129,6 +129,23 @@ By using Usg with its fluent approach and its own grid vendors driver, it is pos
 
 
 # Installation
+## Install using Composer 
+
+from command line inside your laravel 5 project use:
+
+```
+require afonzeca/universalsimplegrid:"@dev"
+```
+
+for enabling Ny driver support use:  
+
+```
+composer require nayjest/grids laravelcollective/html
+```
+
+and then follow the steps inside the paragraph "Notes for Nayjest Grid (Ny Vendor Driver)"
+
+
 ## Install from GitHub source zip
 * Download the zip
 
@@ -158,7 +175,7 @@ composer dump-autoload
 * laravelcollective/html >=5.1
 
 
-### Notes for Nayjest Grid (Ny Vendor Driver)
+## Notes for Nayjest Grid (Ny Vendor Driver)
 
 1) If you want to use Nayjest Grid, do not follow the configuration steps inside their github readme.
 
