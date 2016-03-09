@@ -134,7 +134,7 @@ By using Usg with its fluent approach and its own grid vendors driver, it is pos
 from command line inside your laravel 5 project use:
 
 ```
-require afonzeca/universalsimplegrid:"@dev"
+composer require afonzeca/universalsimplegrid:"@dev"
 ```
 
 for enabling Ny driver support use:  
