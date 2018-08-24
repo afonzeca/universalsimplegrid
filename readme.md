@@ -2,7 +2,7 @@
 The aim of the package Universal Simple Grid (Usg) is giving to Laravel 5 developers an easy way for creating, managing and representing DB data tables inside a "Data Grid" by using simple classes and methods with a "fluent" approach inside code.
 The package itself doesn't have its own data grid engine, but it uses the concept of "Grid Vendor Driver" (see next paragraphs).
 
-# NOTE: The code is in alpha stage, it contains bugs and only a "skeleton" of the idea... Sorry but the code is not completed due to lack of time. In particular, the service provider part is not completed (both documentation and code).
+# NOTE: The project is in alpha stage, it contains bugs and only a "skeleton" of the idea... Sorry but the code and in particularry the service provider part (both documentation and code) has not completed due to lack of time. 
 
 # Code Example
 Before describing the advantages and the approach of the Usg project, let's see a piece of code with and without the use of Usg.
